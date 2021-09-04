@@ -6,5 +6,5 @@ mongoose.connect("mongodb+srv://nadeem:nadeem@cluster0.yvked.mongodb.net/mohd?re
 }).then(()=>{
     console.log("database connected");
 }).catch((err)=>{
-    console.log(err);
+    console.log(error);
 })
